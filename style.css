@@ -1,0 +1,18 @@
+body {
+  background: #ffe6f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #d63384;
+}
+button {
+  background: #ff99cc;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+ul { list-style: none; padding: 0; }
+li { margin: 5px 0; }
+select, input { margin: 5px; padding: 5px; border-radius: 10px; }
