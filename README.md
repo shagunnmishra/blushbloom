@@ -1,2 +1,7 @@
-# blushbloom
-Simple period tracker with calendar and reminders
+# BlushBloom 🌸
+A simple period tracker.
+- Cycle logging
+- Mood tracking
+- Reminders
+- Comfort tips
+- Stats
