@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlushBloom 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>BlushBloom 🌸</h1>
+    <p>Track your cycle, moods & reminders privately</p>
+
+    <h2>Cycle Log</h2>
+    <button onclick="logCycle()">Log Today</button>
+    <ul id="cycleList"></ul>
+
+    <h2>Mood Tracker</h2>
+    <select id="mood">
+      <option>😊 Happy</option>
+      <option>😐 Neutral</option>
+      <option>😔 Low</option>
+    </select>
+    <button onclick="saveMood()">Save Mood</button>
+    <ul id="moodList"></ul>
+
+    <h2>Reminders</h2>
+    <input type="date" id="reminderDate">
+    <input type="text" id="reminderMsg" placeholder="Reminder message">
+    <button onclick="addReminder()">Add Reminder</button>
+    <ul id="reminderList"></ul>
+
+    <h2>Comfort Tip</h2>
+    <div id="tipBox"></div>
+    <button onclick="showTip()">New Tip</button>
+
+    <h2>Stats</h2>
+    <button onclick="showStats()">Show Stats</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
